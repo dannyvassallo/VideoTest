@@ -5,15 +5,16 @@ bottom: 0;
 min-width: 100%;
 min-height: 100%;
 width: auto;
-height: auto;
 z-index: -100;
 background-size: cover !important;
 }
 #bgvid{
 background: url('/assets/images/polina.jpg') no-repeat;
+height: auto;
 }
 #overlay{
 background: url('http://pullzone.vydiainc.netdna-cdn.com/wp-content/uploads/2014/02/gradient.png') no-repeat;
+height: inherit;
 }
 #wrapper{
 width: 100%;

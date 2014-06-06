@@ -6,10 +6,18 @@
 <div id="overlay"></div>
 </div>
 
-<script>
-var video = document.getElementById("bgvideo");
-video.addEventListener('touchstart', function(e) {
-e.preventDefault();
-video.play();
-}
+
+<script type="text/javascript">
+  var index = 1,
+      playlist = ['polina.mp4', 'polina.mp4', 'polina.mp4'],
+      video = document.getElementById('bgvid');
+
+  video.addEventListener('ended', rotate_video, false);
+
+  function rotate_video() {
+    video.setAttribute('src', playlist[index]);
+    video.load();
+    index++;
+    if (index >= playlist.length) { index = 0; }
+  }
 </script>
