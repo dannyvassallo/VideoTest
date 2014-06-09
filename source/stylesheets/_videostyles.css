@@ -1,4 +1,4 @@
-#bgvid, #overlay{
+#bgvid{
 position: fixed;
 right: 0;
 bottom: 0;
@@ -8,17 +8,33 @@ width: auto;
 z-index: -100;
 background-size: cover !important;
 }
+#overlay{
+position: absolute;
+right: 0;
+bottom: 0;
+min-width: 100%;
+min-height: 752px;
+z-index: -100;
+background-size: cover !important;
+top: 0;
+}
 #bgvid{
 background: url('/assets/images/polina.jpg') no-repeat;
 height: auto;
-top: -25%;
+min-height: 752px;
 }
 #overlay{
 background: url('http://pullzone.vydiainc.netdna-cdn.com/wp-content/uploads/2014/02/gradient.png') no-repeat;
+z-index: 100;
 }
 #wrapper{
 width: 100%;
 min-height: 752px;
 overflow: hidden;
 position: fixed;
+}
+#wrapper1{
+width: 100%;
+overflow: hidden;
+position: relative;
 }
