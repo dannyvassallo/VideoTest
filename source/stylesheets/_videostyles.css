@@ -11,10 +11,10 @@ background-size: cover !important;
 #bgvid{
 background: url('/assets/images/polina.jpg') no-repeat;
 height: auto;
+top: -25%;
 }
 #overlay{
 background: url('http://pullzone.vydiainc.netdna-cdn.com/wp-content/uploads/2014/02/gradient.png') no-repeat;
-height: inherit;
 }
 #wrapper{
 width: 100%;

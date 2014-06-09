@@ -1,15 +1,15 @@
 <div id="wrapper">
-<video id="bgvid" autoplay loop poster="/assets/images/polina.jpg">
-<source src="http://demosthenes.info/assets/videos/polina.webm" type="video/webm">
-<source src="http://demosthenes.info/assets/videos/polina.mp4" type="video/mp4">
+<video id="bgvid" autoplay poster="/assets/images/polina.jpg" preload="auto">
+<source src="video/lilterrioweb2.mp4" type="video/mp4">
 </video>
+
 <div id="overlay"></div>
 </div>
 
 
 <script type="text/javascript">
   var index = 1,
-      playlist = ['polina.mp4', 'polina.mp4', 'polina.mp4'],
+      playlist = ['video/tililwayneforweb.mp4', 'video/ajr.mp4', 'video/lilterrioweb2.mp4'],
       video = document.getElementById('bgvid');
 
   video.addEventListener('ended', rotate_video, false);
@@ -21,3 +21,5 @@
     if (index >= playlist.length) { index = 0; }
   }
 </script>
+
+
