@@ -22,10 +22,11 @@ top: 0;
 background: url('/assets/images/polina.jpg') no-repeat;
 height: auto;
 min-height: 752px;
+top: -10%;
 }
 #overlay{
 background: url('http://pullzone.vydiainc.netdna-cdn.com/wp-content/uploads/2014/02/gradient.png') no-repeat;
-z-index: 100;
+z-index: 80;
 }
 #wrapper{
 width: 100%;
@@ -37,4 +38,17 @@ position: fixed;
 width: 100%;
 overflow: hidden;
 position: relative;
+}
+.logo{
+z-index: 99;
+position: relative;
+padding-top: 100px;
+color: white;
+}
+ul, li {
+    display:inline
+}
+
+li{
+margin: 0 10px 0 10px;
 }
